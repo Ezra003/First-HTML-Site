@@ -25,7 +25,7 @@
 
 .course:hover {
     color: hsl(47, 88%, 63%);
-    cursor: url(/assets/images/icons8-hand-cursor-26.png), pointer;
+    cursor: url(/assets/images/cursor.png), pointer;
 }
 
 .description {

@@ -10,17 +10,25 @@ body{
     background-color: hsl(47, 88%, 63%);
     font-family: figtree, arial;
     font-size: 16px;
-    width: 1440px;
+    width: auto;
 }
 
 main{
     background-color: hsl(0, 0%, 100%);
     margin: 100px 545px 100px 545px;
-    width: 350px;
+    width: 340px;
     height: 450px;
     border: 1px solid hsl(0, 0%, 7%);
     border-right: 10px solid;
     border-bottom: 10px solid;
     border-radius: 30px;
     padding: 20px 20px 10px 20px;
+}
+
+@media screen and (max-width: 450px) {
+    main {
+        margin: 30% 5%;
+        width: auto;
+        height: auto;
+    }
 }

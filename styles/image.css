@@ -12,3 +12,9 @@
 .course-instructor-picture img {
     height: 30px
 }
+
+@media screen and (max-width: 450px){
+    .illustration-article {
+    width: 310px;
+}
+}
