@@ -1,0 +1,14 @@
+.illustration-article {
+    width: 350px;
+    height: 200px;
+    border-radius: 22px;
+}
+
+.course-instructor-picture {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.course-instructor-picture img {
+    height: 30px
+}
